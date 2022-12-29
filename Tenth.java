@@ -15,20 +15,16 @@ public class Tenth {
             case 'a':
             case 'A':
                 if (usingStack(inputString))
-                    System.out.println("The input String "
-                            + inputString + " is a palindrome.");
+                    System.out.println("The input String " + inputString + " is a palindrome.");
                 else
-                    System.out.println("The input String " +
-                            inputString + " is not a palindrome.");
+                    System.out.println("The input String " + inputString + " is not a palindrome.");
                 break;
             case 'b':
             case 'B':
                 if (usingQueue(inputString))
-                    System.out.println("The input String "
-                            + inputString + " is a palindrome.");
+                    System.out.println("The input String " + inputString + " is a palindrome.");
                 else
-                    System.out.println("The input String "
-                            + inputString + " is not a palindrome.");
+                    System.out.println("The input String " + inputString + " is not a palindrome.");
                 break;
             default:
                 System.out.println("Invalid Choice enter the character! (TRY AGAIN)");
