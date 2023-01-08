@@ -71,7 +71,7 @@ class Matrix {
             for (int j = 0; j < this.col; j++) {
                 prod.mat[i][j] = 0;
                 for (int k = 0; k < this.col; k++)
-                    prod.mat[i][j] = prod.mat[i][j] + this.mat[i][j] * m.mat[k][j];
+                    prod.mat[i][j] = prod.mat[i][j] + this.mat[i][k] * m.mat[k][j];
             }
         }
         return prod;
